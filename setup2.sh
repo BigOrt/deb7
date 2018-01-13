@@ -1,6 +1,6 @@
 echo "create vpnserver service ..........."
 echo "............................................"
-
+cd
 chmod 755 /etc/init.d/vpnserver
 mkdir /var/lock/subsys
 update-rc.d vpnserver defaults
